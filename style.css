@@ -1,0 +1,61 @@
+/* Colors and fonts*/
+
+
+body {
+	background-color: rgb(198 217 224);
+	color: rgb(2,22,66);
+	font-family: 'Calibri', sans-serif;
+	font-size: 17px;
+}
+
+h1 {
+	color: #9199a7;
+	font-family: 'Calibri', sans-serif;
+	font-weight: 100;
+	letter-spacing: 10px;
+	font-size: 50px;
+}
+
+h2 {
+	color: #af8eae;
+	font-family: 'times', cursive;
+	font-weight: 50;
+	letter-spacing: 0px;
+	font-size: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: #a70909;
+}
+
+a:hover {
+	color: white;
+}
+
+
+/* Custom design with class */
+
+.card-white {
+	background: white;
+	padding: 5px;
+	margin: 60px;
+	box-shadow: 10px 20px 30px rgb(100 100 100);
+	border-radius: 4px;
+}
+
+.img-circle {
+	border-radius: 50%;
+	margin: 30px;
+	height: 250px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
